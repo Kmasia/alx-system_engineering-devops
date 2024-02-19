@@ -41,4 +41,3 @@ if __name__ == "__main__":
     # Write the data to a JSON file with the employee ID as the filename
     with open("{}.json".format(user_id), "w") as jsonfile:
         json.dump(data_to_export, jsonfile, indent=4)
-
